@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   eva-iam:
   - apiVersion: v2
+    appVersion: 3.3.0
+    created: "2026-10-28T03:58:43.734673897Z"
+    description: Keycloak-based IAM for EVA (SSO, RBAC), with PostgreSQL, Redis and
+      a backchannel-logout dispatcher
+    digest: 73284ebe4faa6daaa5e72dfa0366dc965f3207f0a8112c55d65d6b73a78275b9
+    name: eva-iam
+    type: application
+    urls:
+    - https://spectrabrain.github.io/eva-iam-chart/eva-iam-3.3.0.tgz
+    version: 3.3.0
+  - apiVersion: v2
     appVersion: 3.3.0-beta.1
-    created: "2026-10-16T00:26:07.292058108Z"
+    created: "2026-10-28T03:58:43.732756359Z"
     description: Keycloak-based IAM for EVA (SSO, RBAC), with PostgreSQL, Redis and
       a backchannel-logout dispatcher
     digest: 627c91bc785247a9143de040c960a3e738b77792d8300f4037625c7e820575f9
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://spectrabrain.github.io/eva-iam-chart/eva-iam-3.3.0-beta.1.tgz
     version: 3.3.0-beta.1
-generated: "2026-10-16T00:26:07.290278091Z"
+generated: "2026-10-28T03:58:43.729245409Z"
